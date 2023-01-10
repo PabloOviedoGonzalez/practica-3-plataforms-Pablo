@@ -7,11 +7,16 @@ public class PlatformPlayer : MonoBehaviour
     public LayerMask mascaraSuelo;
     public float rayDistance = 1.5f;
     private Rigidbody2D rb;
+    private Animator animator;
+    SpriteRenderer rend;
+    public float fuerzasalto = 200;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -19,20 +24,25 @@ public class PlatformPlayer : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
+            animator.Play("runanimation");
+            rend.flipX = true;
             rb.velocity = new Vector3(-10, 0, 0);
         }
         else if (Input.GetKey(KeyCode.D))
         {
+            animator.Play("runanimation");
+            rend.flipX = false;
             rb.velocity = new Vector3(10, 0, 0);
         }
         else
         {
+            animator.Play("idleAnimation");
             rb.velocity = new Vector3(0, 0, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
-            rb.AddForce(new Vector2(0, 2000));
+            rb.AddForce(new Vector2(0, fuerzasalto));
         }
     }
 
