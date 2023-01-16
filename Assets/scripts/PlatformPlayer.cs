@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlatformPlayer : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class PlatformPlayer : MonoBehaviour
     private Animator animator;
     SpriteRenderer rend;
     public float fuerzasalto = 200;
+    private void OnDestroy() //declaramos metedo para cuando se destruya hacer algo
+    {
+        SceneManager.LoadScene("SampleScene"); //resetear la escena
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -26,23 +31,23 @@ public class PlatformPlayer : MonoBehaviour
         {
             animator.Play("runanimation");
             rend.flipX = true;
-            rb.velocity = new Vector3(-10, 0, 0);
+            rb.velocity = new Vector3(-10, rb.velocity.y, 0);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             animator.Play("runanimation");
             rend.flipX = false;
-            rb.velocity = new Vector3(10, 0, 0);
+            rb.velocity = new Vector3(10, rb.velocity.y, 0);
         }
         else
         {
             animator.Play("idleAnimation");
-            rb.velocity = new Vector3(0, 0, 0);
+            rb.velocity = new Vector3(0, rb.velocity.y, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
-            rb.AddForce(new Vector2(0, fuerzasalto));
+            rb.AddForce(transform.up * fuerzasalto * rb.gravityScale);
         }
     }
 

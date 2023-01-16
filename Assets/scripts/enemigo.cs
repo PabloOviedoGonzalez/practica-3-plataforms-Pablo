@@ -8,6 +8,14 @@ public class enemigo : MonoBehaviour
     private const string Tag = "Player";
     public Transform ObjectToFollow = null;
     public float Speed = 2;
+    private void OnCollisionEnter2D(Collision2D other)//declarar metodo para el destroy
+    {
+        if (other.collider.GetComponent<PlatformPlayer>())// if para q el otro componente
+        { 
+            Destroy(other.gameObject);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +28,7 @@ public class enemigo : MonoBehaviour
         if (ObjectToFollow == null) //por si no hubiese ningun "Player"
             return;
 
-        transform.position = Vector2.MoveTowards(transform.position, ObjectToFollow.transform.position, Speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(ObjectToFollow.transform.position.x, transform.position.y), Speed * Time.deltaTime);
         transform.up = ObjectToFollow.position - transform.position;
     }
 }

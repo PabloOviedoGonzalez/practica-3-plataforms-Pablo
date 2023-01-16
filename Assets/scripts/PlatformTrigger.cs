@@ -27,16 +27,7 @@ public class PlatformTrigger : MonoBehaviour
 
 
 
-        //GameObject clone1 = Instantiate(gameObject);
-        //clone1.GetComponent<Bullet>().speed = new Vector2(0, 10);
-
-
-        //GameObject clone2 = Instantiate(gameObject);
-        //clone2.GetComponent<Bullet>().speed = new Vector2(0, -10);
-
-
-        //GameObject clone3 = Instantiate(gameObject);
-        //clone3.GetComponent<Bullet>().speed = new Vector2(10, 0);
+        
 
     }
 }
