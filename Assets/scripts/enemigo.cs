@@ -29,6 +29,6 @@ public class enemigo : MonoBehaviour
             return;
 
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(ObjectToFollow.transform.position.x, transform.position.y), Speed * Time.deltaTime);
-        transform.up = ObjectToFollow.position - transform.position;
+       // transform.up = ObjectToFollow.position - transform.position;
     }
 }

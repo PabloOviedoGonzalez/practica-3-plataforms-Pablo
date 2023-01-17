@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class cabeza : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D other)//declarar metodo para el destroy
+    private void OnTriggerEnter2D(Collider2D other)//declarar metodo para el destroy
     {
-        if (other.collider.GetComponent<PlatformPlayer>())// if para q el otro componente
+        if (other.GetComponent<PlatformPlayer>())// if para q el otro componente
         {
-            Destroy(gameObject);
+            Destroy(gameObject.transform.parent.gameObject);
         }
     }
     // Start is called before the first frame update
