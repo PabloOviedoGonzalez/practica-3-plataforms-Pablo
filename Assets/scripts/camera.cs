@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class camera : MonoBehaviour
 {
+    public float speed;
+    public float posi = 1f;
+    public Transform transposi;
     
-    private GameObject TargettoFolow;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,7 @@ public class camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // transform.position = TargettoFolow.transform.position;
+        Vector3 posicam4 = new Vector3(transposi.position.x + posi, -0, 5f - 10f);
+        transform.position = Vector3.Slerp(transform.position, posicam4, speed * Time.deltaTime);
     }
 }
