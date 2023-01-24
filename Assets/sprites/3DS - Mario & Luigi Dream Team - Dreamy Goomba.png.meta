@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,3375 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 814
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe0fbc12d20f34b8a7c48f085e9464
+      internalID: -467661874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 814
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d49bd2542c9de4d9a309f1f16fb05c
+      internalID: 1600377342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 814
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634b4720850438b44a7441e020be3a76
+      internalID: -935707520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 814
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea13013cf5e043646966c1044d778586
+      internalID: -1737260589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 814
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5122b17c839ef4496f7b9615116dc5
+      internalID: 1760020735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 814
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2c0f2bd5ee6914b8635fd7c27050c9
+      internalID: 1118780926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 814
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ecd98446c7c14f983fe0ae36a4201
+      internalID: 1382003182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_7
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 814
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46744bc51b1a6d3488b7b75915ee3964
+      internalID: -338144892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_8
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 814
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0349ca76b9bc8469b1925fbcceba70
+      internalID: 255114997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_9
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 814
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5532afb87cfcd9488c5f287a8ee84ba
+      internalID: -1160393496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 814
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d5c338c1b892f469b722e51fb14a3e
+      internalID: -1854897927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_11
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 814
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd1809c74ebbdd48b9b5105b2ff3d70
+      internalID: 1036807452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 774
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85a33669c19b36459ecf4d2b587a398
+      internalID: -1245765131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_13
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 774
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cf9fafbec88c24abd605cf1dab4375
+      internalID: 1971732613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 774
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0281b1463b88da145a599ebe4837ede3
+      internalID: 1888004910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 774
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f43930bc703f345869206f11de5898
+      internalID: 1766972747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 774
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee345ddc0747314790b533b1a1da376
+      internalID: 926037798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 774
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e946f007a04154d9d8132e6f41a660
+      internalID: 1211209265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_18
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 774
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3af6535ac490b47b448b582a79903a
+      internalID: -822032800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 774
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec0eb680860fe4b9c7170417b853a9
+      internalID: 1042343309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_20
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 774
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53591646df93f7647995f99e186c7925
+      internalID: 849912654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_21
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 774
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d81a1fd50c0e76428633ea83e331d4d
+      internalID: -366049305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_22
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 774
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0465127ad282142a9dce7b5a790dd3
+      internalID: -1185638302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_23
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 774
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5a026c3e1693843b2909abb13c3181
+      internalID: -1199251223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 734
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ae1743f74c3eb47bd590dcfb86ee94
+      internalID: 1990979361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 734
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5abd670c3a188b429624897ce835cc8
+      internalID: 922975579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 734
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe340fa9c7d4874cac90dfdf412cd47
+      internalID: 1629960165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 734
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5de4d7071452cc4c99c739b3fd2ffaf
+      internalID: 975860283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_28
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 734
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2acb8e663833f84d91a4717aba5e116
+      internalID: -2052986013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 734
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911b50aec81077449adc9e4354ad9440
+      internalID: -347814487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 734
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c325d34fb515a4a97fe6b2f015767b
+      internalID: 1100777267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_31
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 734
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d36d227c2091e4cad91079715221b4
+      internalID: 1702037430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_32
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 734
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70afb31ed7871ad488f9f960b8775da1
+      internalID: -46616283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_33
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 734
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5c1bc006975e44d8ddb1dae5852bfa
+      internalID: 836483891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_34
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 734
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a303d0de7b43a41ac8895e427d23e3
+      internalID: -530752016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_35
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 734
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ad046fef90f7443835bf68b3a32fc1
+      internalID: -1791084182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 694
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26f62e8fc2b4f64e82689bc5bda22c8
+      internalID: 1691423086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b585da8b853a5ca42b6c3b4ab3807c98
+      internalID: -307154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_38
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1988029df00714408a39053bd3bc6e4
+      internalID: 1708906972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_39
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 694
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e7c46039f431245aa9c95a4ec8bb97
+      internalID: -1874883596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_40
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 694
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1475c532ebd35e945a434d5578677034
+      internalID: -862492211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 694
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1177162925a661242a71df3966b675d9
+      internalID: -828248437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 694
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b856b533c83377f4ea12bf77c388a24e
+      internalID: 857890761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_43
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8153d9d3f74eb14d80746190235b476
+      internalID: 1857910125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_44
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab65d663d47cee40b62136f9e8fedee
+      internalID: -1657099185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_45
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd882030de12f742a8a56cd8382ab21
+      internalID: 1354034101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_46
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d6fa5968598bf4c8b6db888174c503
+      internalID: -639356668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_47
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 694
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659a323eb049ba143b6cd099ca2ea39a
+      internalID: 108783702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 654
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ee50f72bd0e7841be24181407cf97c
+      internalID: -969684510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 654
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df059101650ae8e4eb4216230aa1a779
+      internalID: 671698425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 654
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eaa6fd8bf81194caeec807fe7f12f6
+      internalID: -1672915819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 654
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065f8c48d76b16940affd9bf831fe2b0
+      internalID: -864571203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_52
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 654
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37407db968434eb4692459052767d0ff
+      internalID: 2078860797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_53
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 654
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32419ca8a0bcc3e40bf640191cf2f150
+      internalID: -23117756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_54
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 654
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554d259c3eb8c844288b130bb879deff
+      internalID: 1707998947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_55
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 654
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff8ea58d34011349a00718ff5987c78
+      internalID: -824171962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_56
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 654
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2deaf71cb204c4eb3b326067d2dc31
+      internalID: 1098645555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_57
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 654
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02165aae27cfbc34b9f411dfb9231c24
+      internalID: -812594842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_58
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 654
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdece1158f1cec74899b41e5ffeeabfe
+      internalID: -963376301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_59
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 654
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e66877051da75149b240f20018d54db
+      internalID: 510509117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 614
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04682d37ad385b341a1014d0ed3a9a13
+      internalID: -162958199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 614
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bf1bf030387f448a043b95b6481061
+      internalID: -137038499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_62
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 614
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadaffa2e068d9f4f9996e7d32822963
+      internalID: 1309724349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_63
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 614
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f910cd4558649a41a68d7443bee1951
+      internalID: -814313441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_64
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 614
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1cc4b5bdfd3bc4a9c68c0129b10312
+      internalID: -1684082658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_65
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 614
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909969c7b4e7d5a499395b8e3d852ebb
+      internalID: -285850016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 574
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486401fa0f3d842488a07db3673d3d75
+      internalID: 1231526330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_67
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 534
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f279810d3f4a6347b3122c8c3a4d6da
+      internalID: 1252047991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_68
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 534
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d671619aadf6b7242b9f1118b2b5ec73
+      internalID: -583214486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_69
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 534
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398827ae1a736a747ac43c573cab8c68
+      internalID: -211303962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_70
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 534
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016dcb82092e0234b9b444f7f6127089
+      internalID: -69423376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_71
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 534
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bf9aa8f79be704a84e8504324125e7
+      internalID: 941459958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_72
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 534
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653d99a2c1798be459e17eaa23844f72
+      internalID: -1410983887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_73
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 534
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c9ae53122b5e843805904506d9c35d
+      internalID: -2125435489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_74
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 534
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb6f8bd1431d64cb459742a2f38c2d
+      internalID: 989444990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_75
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 494
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9926ea7138885af43b65c5c662e22314
+      internalID: -1013773505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_76
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 495
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a99b3e6ba1095418ce98ff7e65d752
+      internalID: 1459229378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_77
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 496
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aca14d758eb094d8c01057587dbfa8
+      internalID: -682291037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_78
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 495
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e584324599007c49bc3a2087b561eb0
+      internalID: -1526363885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_79
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 454
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ce9f0bf095674cb2a1b37901c7d65
+      internalID: -44639296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_80
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 454
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bf15bb037b131488340b6f80c86480
+      internalID: 1761660143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_81
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 454
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddada83f2ca015c4584792ae5346a1a6
+      internalID: -1404579385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_82
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 454
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049d71215567dbd4b83d59d5782be490
+      internalID: 299150293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_83
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 454
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daabdc7d8e282f4db9c78d7393bfe17
+      internalID: -17410534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_84
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 416
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321df4a1586e8734ab00012e981d5583
+      internalID: -1856594839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_85
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 415
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb164a49f3a809b4da371094142ece8d
+      internalID: -2087141453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_86
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 414
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb725f89f90841c4c82482055186862f
+      internalID: 900602410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_87
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 414
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56604591e4a0db6439b7c851a232003f
+      internalID: 1594260570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_88
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 415
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d048438b7ef45d443a0dd36026e83b37
+      internalID: -333872589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_89
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 414
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572cc9dcd6f283742a5d3479a3ab7f44
+      internalID: -1747714228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_90
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 414
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e35a45d6265bcb4ca37b9f702cf0c26
+      internalID: 1049289517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_91
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 415
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de06c08982d14d45984778eb231b966
+      internalID: 594269927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_92
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 374
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92bb4a879534e842aa69b34ceafae04
+      internalID: 113211374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_93
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 334
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a3eacb59f1de74d8c1a5f337aadb25
+      internalID: -967059002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_94
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 294
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c7f32beb7c214f999ff54fd8d8140
+      internalID: -1214027565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_95
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 254
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24153460e884aa48b05c1450da1946a
+      internalID: 1133421251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 214
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79b4e7380eb8da49a6e10b7a3d424ee
+      internalID: 531735582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_97
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 214
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e979a4ccf434bd54aa8d31ae57c46a37
+      internalID: -264185114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_98
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 214
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59820c9959ecb843baacb9297e5a529
+      internalID: -1511424203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_99
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 214
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6a8393fffa0db439d5e7858471072f
+      internalID: -674275065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_100
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 214
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00866869039a92444a71745ebbefdf6b
+      internalID: -636283265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_101
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 214
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52140cb981dc0a441b486ae181355192
+      internalID: -382564836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_102
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 214
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd9231d23e485c40a8d42186aa85166
+      internalID: 1836117426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_103
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 214
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce028d425fff342b8e701540f10348
+      internalID: 157561064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_104
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 214
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619c1688419682a46a89d4f3a767156c
+      internalID: 2111338158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_105
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 214
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2393ee42af5a644abb07cecca38cf7c
+      internalID: 873634651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_106
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 214
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d3c950d95ec44a87a46cda9c08bd9
+      internalID: 1077987267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_107
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 214
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e5aeb04d3863a45ad8d1586e62d0b0
+      internalID: 2043019180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 174
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa356db665ea6724fbfe880cdd099a8e
+      internalID: 1626725867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_109
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 174
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5285d3ad3314685438e4754a27feeb8e
+      internalID: 478878823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_110
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 174
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb665cd65646c94f9ac60bfe19c6871
+      internalID: -1878745977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_111
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 174
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df93f63f8a329546ac359f98cc5e4ac
+      internalID: -1097790930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_112
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 174
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ddea41e9b47be41b814b60f292edfc
+      internalID: 1736730600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_113
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 174
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339f249d045a567438e40d4e09229cf9
+      internalID: 761006296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_114
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 174
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60db9c82958f014d879151f85dc9710
+      internalID: -1761576462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_115
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 174
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4079a7bf44e399c47b8509a820815e17
+      internalID: -171341095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_116
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 174
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e819db79e372fa47888df6616276011
+      internalID: -1371770685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_117
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 174
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afcbf203bacefb44bffbfd74bdff6b1
+      internalID: -284522669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_118
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 174
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f145af8eb3d4384db55f539fcc0f372
+      internalID: 1680765161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_119
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 174
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d49c5273508a3b4b842b1b9b2dd4dd1
+      internalID: -19400489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 134
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce51ee3ffb011ec40bd887f731ad0a50
+      internalID: 958360824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_121
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 134
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3446710f1eb7a4b4a881071ebf521b43
+      internalID: 1453762831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_122
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 134
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e535aa7dc3394184a924a2b4c9b547b5
+      internalID: -2015148652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_123
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 134
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4034e729239c024408d5268df7121c93
+      internalID: -775905783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_124
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 134
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd8a209136dde44a92542bf16d1fc6c
+      internalID: 416421240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_125
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 134
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178d998331610c04c9f404d2d7971bec
+      internalID: -1605914305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_126
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 134
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cc3d83f8b336c4a97a71f4f701356d
+      internalID: -128292863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_127
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 134
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724a92db44af0bf44a9d2b31b1e7f72f
+      internalID: 1464994736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_128
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 134
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b502909aaa11b478d72f81871241ec
+      internalID: 1973754599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_129
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 134
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fd19e7af8275b42b74ae6ec49d0967
+      internalID: 148235155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_130
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 134
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4910594323ba31468e84855546d5235
+      internalID: 1222191351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_131
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 134
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109b29ce68403774bb1e376077747332
+      internalID: 1787575891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_132
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 94
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbc1d971e0ec7b4eb401c5d5813ba3d
+      internalID: 1213673037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_133
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 94
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b0144da455f1488837179801b2a7e
+      internalID: 1810651927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_134
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 94
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86b8b3f2d856c246bb5e74f31ca4173
+      internalID: 1486698665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_135
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 94
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78cafd3ff93b9d4b995632ed0be9e96
+      internalID: 1585849675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_136
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 94
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6602bb55fc4b8a44b81b82ca2977a0e2
+      internalID: -853723460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_137
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 94
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674dce3dc4f85354189ebe275889bcc0
+      internalID: 615992074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_138
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 94
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b1134610aeef469555631513a6494
+      internalID: -404214019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 94
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484500e0f1d078d42b63e4fb1d23f505
+      internalID: -1496144472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_140
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 94
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c41d56e2201bf74aa762adb59d4d90b
+      internalID: -1964235489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_141
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 94
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2f955b75a788d4fbc8c14ee7c8fb47
+      internalID: -254659065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_142
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 94
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e1f3196418924cb1ac87cfdaca581
+      internalID: -544706503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_143
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 94
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb44411f5aa7448b7069686660e714
+      internalID: 1439223986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_144
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 54
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ee7a356846b0945b8e118e9c496501
+      internalID: -1371908129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_145
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 54
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e795dfd0b8c20c94e990f9f6fd2e1d09
+      internalID: -493795468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_146
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 54
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4b4af3eee5eab4cac63696ec243614
+      internalID: 161924304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_147
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 54
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3f1450367295f4f8ecb879cc1fe3ee
+      internalID: -1052510961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_148
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 54
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd18900ecc4ba154a90041bd45010a74
+      internalID: -844433178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_149
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 54
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51beac806b39f334c8f70952ca013090
+      internalID: 1426455207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_150
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93242832a2f79ab4fbaede283aa7e614
+      internalID: 1192536239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_151
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 14
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89736bef9355bc045a2ae3e278ee320a
+      internalID: 25453327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_152
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 14
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20a76917d64d334490792d4b227b802
+      internalID: -1618715538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_153
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 14
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad3d70d31294234494bb23e03f00196
+      internalID: 895531194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_154
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 14
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef05cd7e43c1104783b6e9c3addabbf
+      internalID: 1711559593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_155
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 14
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4743850b4900da409e0735b11ba72f4
+      internalID: -468982290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_156
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 14
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a284b90d97a864aa06a33d89c236fc
+      internalID: 2001423839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Mario & Luigi Dream Team - Dreamy Goomba_157
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 14
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a94043e9ee004aa21974aa0d86197
+      internalID: 1477828249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +3455,165 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_16: 926037798
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_21: -366049305
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_106: 1077987267
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_53: -23117756
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_9: -1160393496
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_44: -1657099185
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_39: -1874883596
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_57: -812594842
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_93: -967059002
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_132: 1213673037
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_125: -1605914305
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_157: 1477828249
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_17: 1211209265
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_42: 857890761
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_90: 1049289517
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_31: 1702037430
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_131: 1787575891
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_144: -1371908129
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_61: -137038499
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_32: -46616283
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_155: -468982290
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_129: 148235155
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_18: -822032800
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_71: 941459958
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_82: 299150293
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_83: -17410534
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_104: 2111338158
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_135: 1585849675
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_116: -1371770685
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_120: 958360824
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_56: 1098645555
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_13: 1971732613
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_136: -853723460
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_59: 510509117
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_72: -1410983887
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_85: -2087141453
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_119: -19400489
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_60: -162958199
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_50: -1672915819
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_81: -1404579385
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_26: 1629960165
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_14: 1888004910
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_5: 1118780926
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_43: 1857910125
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_12: -1245765131
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_115: -171341095
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_48: -969684510
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_7: -338144892
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_75: -1013773505
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_78: -1526363885
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_47: 108783702
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_95: 1133421251
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_65: -285850016
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_103: 157561064
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_19: 1042343309
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_6: 1382003182
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_28: -2052986013
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_113: 761006296
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_146: 161924304
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_100: -636283265
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_142: -544706503
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_89: -1747714228
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_137: 615992074
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_140: -1964235489
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_87: 1594260570
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_94: -1214027565
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_92: 113211374
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_108: 1626725867
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_117: -284522669
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_74: 989444990
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_55: -824171962
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_36: 1691423086
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_105: 873634651
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_109: 478878823
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_145: -493795468
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_15: 1766972747
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_121: 1453762831
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_111: -1097790930
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_69: -211303962
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_68: -583214486
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_139: -1496144472
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_150: 1192536239
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_141: -254659065
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_22: -1185638302
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_51: -864571203
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_84: -1856594839
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_112: 1736730600
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_52: 2078860797
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_25: 922975579
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_40: -862492211
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_86: 900602410
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_114: -1761576462
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_148: -844433178
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_38: 1708906972
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_124: 416421240
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_63: -814313441
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_41: -828248437
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_62: 1309724349
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_10: -1854897927
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_30: 1100777267
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_64: -1684082658
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_154: 1711559593
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_66: 1231526330
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_54: 1707998947
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_11: 1036807452
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_1: 1600377342
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_8: 255114997
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_80: 1761660143
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_45: 1354034101
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_76: 1459229378
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_107: 2043019180
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_122: -2015148652
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_96: 531735582
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_0: -467661874
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_130: 1222191351
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_143: 1439223986
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_33: 836483891
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_3: -1737260589
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_127: 1464994736
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_37: -307154
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_46: -639356668
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_29: -347814487
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_58: -963376301
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_34: -530752016
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_128: 1973754599
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_149: 1426455207
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_152: -1618715538
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_97: -264185114
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_138: -404214019
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_88: -333872589
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_49: 671698425
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_4: 1760020735
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_23: -1199251223
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_24: 1990979361
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_110: -1878745977
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_133: 1810651927
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_77: -682291037
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_35: -1791084182
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_73: -2125435489
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_98: -1511424203
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_134: 1486698665
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_147: -1052510961
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_153: 895531194
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_101: -382564836
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_102: 1836117426
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_156: 2001423839
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_126: -128292863
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_118: 1680765161
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_70: -69423376
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_2: -935707520
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_27: 975860283
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_67: 1252047991
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_123: -775905783
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_91: 594269927
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_79: -44639296
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_99: -674275065
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_151: 25453327
+      3DS - Mario & Luigi Dream Team - Dreamy Goomba_20: 849912654
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

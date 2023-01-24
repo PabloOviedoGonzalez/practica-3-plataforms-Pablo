@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,561 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 134
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45a25ad208e0b846a48a6640df5b8fb
+      internalID: -1324213549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 134
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a144e1337a73ad4f8ffcb53467af277
+      internalID: -1165839919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 134
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f378692e4c8ada45a93dcc6d3dea2cf
+      internalID: -873719553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 134
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20723f17ec022541965ff770e3974d6
+      internalID: 64973957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 140
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2345c3109cbf64ca1f62b960a809c9
+      internalID: 752883072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 144
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273e8180358b46c458ea56f7eb408c25
+      internalID: -1899287682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 144
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a24ccebe80e02242ba28b7d6255211a
+      internalID: -212718330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 68
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64751004879e80e4aa0a7eb103a46a44
+      internalID: -1367005708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 68
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8de28baf6cbff345be984f40516ee61
+      internalID: -421324580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 68
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72afa17dda03cda43a042cba8a469991
+      internalID: -637945231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbf27a0bfeb474392dec3e8d5f2977
+      internalID: -781549655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee8455b8a271c441aa9566407d402bb
+      internalID: 2096726196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218125a159730d74c8c46f53550557e7
+      internalID: 296425638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 12
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c799902fd5dfbeb459ee424cd7e982db
+      internalID: -1044153259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 17
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983f5e42370204c418579136a641f120
+      internalID: 1153425001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 24
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c58fa819714943a14a3188c793ee0
+      internalID: 2055552910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 28
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4b0b0b2fa566d49b26808400aea59c
+      internalID: -1164733873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 53
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d943386194c473547be3c4a221bac6c1
+      internalID: -179555191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 29
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aa440870789cd45ab5e4d51015f6c4
+      internalID: -672142794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 14
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819b75c3bc44b5438006a90443f5f77
+      internalID: -2110421336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 22
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcd82dbc7ac2734a8a4f7a4ec847d14
+      internalID: -1794614867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40c64e3f778bf240b1f3912ed558b89
+      internalID: -1736135650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 15
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5995a3b7b3b26d4eabc047cd767a944
+      internalID: 1947064979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Bad Toys 3D - Spring Enemy_23
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2
+        width: 58
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce44331b772d8c4d939839a77a7364d
+      internalID: -408501870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +641,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Bad Toys 3D - Spring Enemy_5: -1899287682
+      PC Computer - Bad Toys 3D - Spring Enemy_1: -1165839919
+      PC Computer - Bad Toys 3D - Spring Enemy_9: -637945231
+      PC Computer - Bad Toys 3D - Spring Enemy_11: 2096726196
+      PC Computer - Bad Toys 3D - Spring Enemy_3: 64973957
+      PC Computer - Bad Toys 3D - Spring Enemy_2: -873719553
+      PC Computer - Bad Toys 3D - Spring Enemy_14: 1153425001
+      PC Computer - Bad Toys 3D - Spring Enemy_0: -1324213549
+      PC Computer - Bad Toys 3D - Spring Enemy_19: -2110421336
+      PC Computer - Bad Toys 3D - Spring Enemy_18: -672142794
+      PC Computer - Bad Toys 3D - Spring Enemy_8: -421324580
+      PC Computer - Bad Toys 3D - Spring Enemy_16: -1164733873
+      PC Computer - Bad Toys 3D - Spring Enemy_20: -1794614867
+      PC Computer - Bad Toys 3D - Spring Enemy_21: -1736135650
+      PC Computer - Bad Toys 3D - Spring Enemy_13: -1044153259
+      PC Computer - Bad Toys 3D - Spring Enemy_10: -781549655
+      PC Computer - Bad Toys 3D - Spring Enemy_23: -408501870
+      PC Computer - Bad Toys 3D - Spring Enemy_7: -1367005708
+      PC Computer - Bad Toys 3D - Spring Enemy_15: 2055552910
+      PC Computer - Bad Toys 3D - Spring Enemy_6: -212718330
+      PC Computer - Bad Toys 3D - Spring Enemy_22: 1947064979
+      PC Computer - Bad Toys 3D - Spring Enemy_4: 752883072
+      PC Computer - Bad Toys 3D - Spring Enemy_12: 296425638
+      PC Computer - Bad Toys 3D - Spring Enemy_17: -179555191
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
