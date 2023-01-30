@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlatformPlayer : MonoBehaviour
 {
     public LayerMask mascaraSuelo;
+    //
+
     public float rayDistance = 1.5f;
     private Rigidbody2D rb;
     private Animator animator;
@@ -13,7 +15,7 @@ public class PlatformPlayer : MonoBehaviour
     public float fuerzasalto = 200;
     public string boolWalk = "boolWalk";
     public float slide = 0f;
-        float dir = 1;
+    float dir = 1;
     private void OnDestroy() //declaramos metedo para cuando se destruya hacer algo
     {
         SceneManager.LoadScene("SampleScene"); //resetear la escena
@@ -47,7 +49,7 @@ public class PlatformPlayer : MonoBehaviour
         else
         {
             animator.SetBool(boolWalk, false);
-            rb.velocity = new Vector3(slide * dir, rb.velocity.y, 0) ;
+            rb.velocity = new Vector3(slide * dir, rb.velocity.y, 0);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
@@ -55,19 +57,27 @@ public class PlatformPlayer : MonoBehaviour
             animator.Play("jumpanimation");
             rb.AddForce(transform.up * fuerzasalto * rb.gravityScale);
         }
+
+    }
+
+    //evento
+    void ChangeSpriteColor(int r)
+    {
+        rend.color = Color.blue;
+        Debug.Log(r);
     }
 
     bool IsGrounded()
     {
-        RaycastHit2D resultado = Physics2D.Raycast(transform.position, 
+        RaycastHit2D resultado = Physics2D.Raycast(transform.position,
             Vector2.down, rayDistance, mascaraSuelo.value);
 
         if (resultado)
         {
             Debug.Log(resultado.collider.gameObject.name);
             //if (resultado.collider.gameObject.CompareTag("suelo"))
-           // {
-                return true;
+            // {
+            return true;
             //}
         }
 
@@ -79,4 +89,4 @@ public class PlatformPlayer : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
-} 
+}
