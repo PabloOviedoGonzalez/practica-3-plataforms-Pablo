@@ -14,6 +14,6 @@ public class UpdateTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeText.text = "Tiempo: " + GameManager.instance.GetTime();
+        timeText.text = "Tiempo: " + GameManager.instance.GetTime().ToString("0.00"); //accedemos al instance porq
     }
 }
