@@ -16,6 +16,10 @@ public class PlatformPlayer : MonoBehaviour
     public string boolWalk = "boolWalk";
     public float slide = 0f;
     float dir = 1;
+
+    public AudioClip jumpSound;
+    [Range(0, 1)]
+    public float jumpVolume;
     private void OnDestroy() //declaramos metedo para cuando se destruya hacer algo
     {
         SceneManager.LoadScene("SampleScene"); //resetear la escena
@@ -56,6 +60,8 @@ public class PlatformPlayer : MonoBehaviour
         {
             animator.Play("jumpanimation");
             rb.AddForce(transform.up * fuerzasalto * rb.gravityScale);
+
+           // AudioManager.instance.PlayAudio(jumpSound, jumpVolume);
         }
 
     }

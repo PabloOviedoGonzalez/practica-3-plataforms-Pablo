@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance; //el estatic hace q solo pueda ahber una variable asi en el codigo y el static + el public hace q se pueda llamar desde todo el codigo(singletone)
 
+    public AudioClip nombre;
+    [Range(0, 1)]
+    public float nombreVolume;
+
     private int puntuacion = 0;
 
     private float time = 0;
@@ -29,6 +33,11 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         time += Time.deltaTime;
+
+        //if(time > 5 )
+        //{
+        //    AudioManager.instance.PlayAudio(nombre, nombreVolume);
+        //}
     }
 
     public void AddPunt(int value)
@@ -49,6 +58,7 @@ public class GameManager : MonoBehaviour
     public void ChangeScene(string name)
     {
         SceneManager.LoadScene(name);
+        //AudioManager.instance.ClearAudioList();
     }
   
 }
