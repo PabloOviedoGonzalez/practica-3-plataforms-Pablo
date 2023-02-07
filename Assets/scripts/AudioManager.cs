@@ -62,6 +62,18 @@ public class AudioManager : MonoBehaviour
         activeAudioGameObjects.Clear();
     }
 
+    IEnumerator PlayAudio(AudioSource source)
+    {
+        while ( source && source.isPlaying)
+        {
+            yield return null;
+        }
+
+        if (source)
+        {
+            activeAudioGameObjects.Remove(source.gameObject);
+        }
+    }
 
 
 

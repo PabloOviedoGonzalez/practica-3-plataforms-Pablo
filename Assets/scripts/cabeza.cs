@@ -9,6 +9,7 @@ public class cabeza : MonoBehaviour
         if (other.GetComponent<PlatformPlayer>())// if para q el otro componente
         {
             Destroy(gameObject.transform.parent.gameObject);
+            GameManager.instance.AddPunt(10);
         }
     }
     // Start is called before the first frame update

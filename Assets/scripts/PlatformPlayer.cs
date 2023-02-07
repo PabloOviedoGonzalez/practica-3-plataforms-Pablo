@@ -20,10 +20,10 @@ public class PlatformPlayer : MonoBehaviour
     public AudioClip jumpSound;
     [Range(0, 1)]
     public float jumpVolume;
-    private void OnDestroy() //declaramos metedo para cuando se destruya hacer algo
-    {
-        SceneManager.LoadScene("SampleScene"); //resetear la escena
-    }
+    //private void OnDestroy() //declaramos metedo para cuando se destruya hacer algo
+    //{
+    //    SceneManager.LoadScene("GameOver"); //resetear la escena
+    //}
 
     // Start is called before the first frame update
     void Start()
@@ -66,12 +66,12 @@ public class PlatformPlayer : MonoBehaviour
 
     }
 
-    //evento
-    void ChangeSpriteColor(int r)
-    {
-        rend.color = Color.blue;
-        Debug.Log(r);
-    }
+    ////evento
+    //void ChangeSpriteColor(int r)
+    //{
+    //    rend.color = Color.blue;
+    //    Debug.Log(r);
+    //}
 
     bool IsGrounded()
     {
@@ -90,9 +90,9 @@ public class PlatformPlayer : MonoBehaviour
         return false;
     }
 
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
-    }
+    //void OnDrawGizmosSelected()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
+    //}
 }

@@ -15,6 +15,7 @@ public class cubetrigger : MonoBehaviour
         {
             GameObject clone1 = Instantiate(colecionable,desdeaqui.transform.position, Quaternion.identity);
             clone1.GetComponent<coleccionable>().speed = new Vector2(0, speed);
+            GameManager.instance.AddPunt(10);
         }
     }
     // Start is called before the first frame update
