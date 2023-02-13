@@ -8,12 +8,26 @@ public class enemigo : MonoBehaviour
     private const string Tag = "Player";
     public Transform ObjectToFollow = null;
     public float Speed = 2;
+
+    public AudioClip deadSound;
+    [Range(0, 1)]
+    public float deadVolume;
+
     private void OnCollisionEnter2D(Collision2D other)//declarar metodo para el destroy
     {
         if (other.collider.GetComponent<PlatformPlayer>())// if para q el otro componente
         {
-            GameManager.instance.ChangeScene("GameOver");
+            Destroy(other.gameObject);
+            AudioManager.instance.PlayAudio(deadSound, deadVolume);
+            Invoke("change" , 2);
         }
+    }
+
+
+    void change()
+    {
+        GameManager.instance.ChangeScene("GameOver");
+
     }
 
     // Start is called before the first frame update

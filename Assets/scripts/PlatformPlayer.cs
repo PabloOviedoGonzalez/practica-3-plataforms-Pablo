@@ -61,7 +61,7 @@ public class PlatformPlayer : MonoBehaviour
             animator.Play("jumpanimation");
             rb.AddForce(transform.up * fuerzasalto * rb.gravityScale);
 
-           // AudioManager.instance.PlayAudio(jumpSound, jumpVolume);
+            AudioManager.instance.PlayAudio(jumpSound, jumpVolume);
         }
 
     }

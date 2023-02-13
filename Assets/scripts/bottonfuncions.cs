@@ -10,4 +10,11 @@ public class bottonfuncions : MonoBehaviour
         GameManager.instance.ChangeScene(name);
         //AudioManager.instance.ClearAudioList();
     }
+
+
+    public void exitGame (string name)
+    {
+        Application.Quit();
+        Debug.Log("exit");
+    }
 }

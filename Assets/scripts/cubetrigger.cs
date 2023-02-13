@@ -9,6 +9,10 @@ public class cubetrigger : MonoBehaviour
     public GameObject colecionable;
     public GameObject desdeaqui;
     public float speed = 15;
+
+    public AudioClip jumpSound;
+    [Range(0, 1)]
+    public float jumpVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.GetComponent<PlatformPlayer>())
@@ -16,6 +20,7 @@ public class cubetrigger : MonoBehaviour
             GameObject clone1 = Instantiate(colecionable,desdeaqui.transform.position, Quaternion.identity);
             clone1.GetComponent<coleccionable>().speed = new Vector2(0, speed);
             GameManager.instance.AddPunt(10);
+            AudioManager.instance.PlayAudio(jumpSound, jumpVolume);
         }
     }
     // Start is called before the first frame update
