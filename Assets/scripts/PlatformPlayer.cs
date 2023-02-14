@@ -95,4 +95,9 @@ public class PlatformPlayer : MonoBehaviour
     //    Gizmos.color = Color.red;
     //    Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     //}
+
+    void ChangeScene(string name)
+    {
+        GameManager.instance.ChangeScene("GameOver");
+    }
 }
