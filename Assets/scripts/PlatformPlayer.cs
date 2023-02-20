@@ -11,7 +11,7 @@ public class PlatformPlayer : MonoBehaviour
     public float rayDistance = 1.5f;
     private Rigidbody2D rb;
     private Animator animator;
-    SpriteRenderer rend;
+    private SpriteRenderer rend;
     public float fuerzasalto = 200;
     public string boolWalk = "boolWalk";
     public float slide = 0f;
@@ -100,4 +100,11 @@ public class PlatformPlayer : MonoBehaviour
     {
         GameManager.instance.ChangeScene("GameOver");
     }
+
+
+    //public void ChangeColor()
+    //{
+    //    Destroy.GameObject;
+    //    rend.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+    //}
 }

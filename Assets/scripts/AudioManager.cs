@@ -27,14 +27,15 @@ public class AudioManager : MonoBehaviour
     }
 
 
-    public AudioSource PlayAudio(AudioClip clip, float volume = 1)
+    public AudioSource PlayAudio(AudioClip clip, float volume = 1)  //es el metodo al q hay q llamar
     {
-        GameObject sourceObj = new GameObject(clip.name);   //crea el object
+        GameObject sourceObj = new GameObject(clip.name);   //crea el object en escena con el nombre del clip
         activeAudioGameObjects.Add(sourceObj);  //lo añade a la lista
         sourceObj.transform.SetParent(this.transform);  //crea hijo
-        AudioSource source = sourceObj.AddComponent<AudioSource>();  //añade el componente source
+        AudioSource source = sourceObj.AddComponent<AudioSource>();  //añade el componente source al objeto q estamos creando
         source.clip = clip;  //el clip
         source.volume = volume;  // la variable del volumen
+        //source.pitch = 1.5f;
         source.Play();
         StartCoroutine(PlayAudio(source));
         return source;
