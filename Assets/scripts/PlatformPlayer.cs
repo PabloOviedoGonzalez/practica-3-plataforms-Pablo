@@ -17,6 +17,11 @@ public class PlatformPlayer : MonoBehaviour
     public float slide = 0f;
     float dir = 1;
 
+    //doblesalto
+    private int numSaltos = 1;  //cantidad de saltos extra q tenemos en una variable
+    private int numSaltosV;     //variable para guardar la cantidad de saltos de la anterior variable para
+                                // poder modificarlo constantemente pero pudiendo volver a la original con la anterior variable
+
     public AudioClip jumpSound;
     [Range(0, 1)]
     public float jumpVolume;
@@ -31,6 +36,7 @@ public class PlatformPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
+        numSaltosV = numSaltos; // guardamos el valor de la prmera variable en la variable aux
     }
 
     // Update is called once per frame
@@ -56,12 +62,20 @@ public class PlatformPlayer : MonoBehaviour
             rb.velocity = new Vector3(slide * dir, rb.velocity.y, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        if (IsGrounded())  // aquí le decimos q cada vez q player toque el suelo la varable aux se vuelva a igualar
+                           // a la primera variable para q se reinicie el doble salto y se pueda volver a realizar.
+        {
+            numSaltosV = numSaltos;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && numSaltosV > 0)//con numSaltosV decimos q si es mayor a 0 salta y si no no salta      //IsGrounded()) 
         {
             animator.Play("jumpanimation");
             rb.AddForce(transform.up * fuerzasalto * rb.gravityScale);
 
             AudioManager.instance.PlayAudio(jumpSound, jumpVolume);
+
+             numSaltosV--; // disminuimosen uno el valor cada vez q de un salto para q solo pueda dar dos
         }
 
     }
