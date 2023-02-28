@@ -17,6 +17,7 @@ public class cabeza : MonoBehaviour
             Destroy(gameObject.transform.parent.gameObject);
             GameManager.instance.AddPunt(10);
             AudioManager.instance.PlayAudio(hitSound, hitVolume);
+            GameManager.instance.AddPuntEnemys(1);
         }
     }
     // Start is called before the first frame update

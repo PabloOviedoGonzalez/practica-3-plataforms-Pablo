@@ -12,7 +12,7 @@ public class icezone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)   // creamos el ontrigger 
     {
-          Rigidbody2D rb;
+          //Rigidbody2D rb;
         
         if (other.GetComponent<PlatformPlayer>())   //le decimos q tiene q ser cuando sea el PlatformPlayer
         {

@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public float nombreVolume;
 
     private int puntuacion = 0;
+    private int enemysDeath = 0;
 
     private float time = 0;
     // Start is called before the first frame update
@@ -53,6 +54,15 @@ public class GameManager : MonoBehaviour
         puntuacion += value;
     }
 
+    public void AddPuntEnemys(int value)
+    {
+        enemysDeath += value;
+    }
+
+    public int GetEnemysDeath()
+    {
+        return enemysDeath;
+    }
     public int GetPunt()
     {
         return puntuacion;

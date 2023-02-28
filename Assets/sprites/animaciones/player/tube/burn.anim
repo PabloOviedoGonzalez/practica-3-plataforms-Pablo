@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tube
+  m_Name: burn
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1123581961, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: 2018166340, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     - time: 0.33333334
-      value: {fileID: -1660781405, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: -1353423668, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     - time: 0.6666667
-      value: {fileID: -1258065055, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: 2018166340, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     - time: 1
-      value: {fileID: -145332271, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: -1953193323, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     - time: 1.3333334
-      value: {fileID: -1931304515, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: 465325216, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     - time: 1.75
-      value: {fileID: 306999596, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: 1140054596, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     - time: 2.1666667
-      value: {fileID: 807950780, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+      value: {fileID: 1794496411, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,13 +52,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1123581961, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
-    - {fileID: -1660781405, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
-    - {fileID: -1258065055, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
-    - {fileID: -145332271, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
-    - {fileID: -1931304515, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
-    - {fileID: 306999596, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
-    - {fileID: 807950780, guid: 45fd66c0099c3664683da3313a036f2f, type: 3}
+    - {fileID: 2018166340, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
+    - {fileID: -1353423668, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
+    - {fileID: 2018166340, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
+    - {fileID: -1953193323, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
+    - {fileID: 465325216, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
+    - {fileID: 1140054596, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
+    - {fileID: 1794496411, guid: 7f2b8788c2d68cb4f9ab68e8f56fd291, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -85,8 +85,8 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 2.1666667
-    functionName: 
-    data: 
+    functionName: ChangeScene
+    data: GameOver
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

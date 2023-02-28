@@ -18,17 +18,32 @@ public class PlatformPlayer : MonoBehaviour
     float dir = 1;
 
     //doblesalto
-    private int numSaltos = 1;  //cantidad de saltos extra q tenemos en una variable
+    private int numSaltos = 2;  //cantidad de saltos extra q tenemos en una variable
     private int numSaltosV;     //variable para guardar la cantidad de saltos de la anterior variable para
                                 // poder modificarlo constantemente pero pudiendo volver a la original con la anterior variable
 
     public AudioClip jumpSound;
     [Range(0, 1)]
     public float jumpVolume;
+
+
+    public AudioClip lavaSound;
+    [Range(0, 1)]
+    public float lavaVolume;
     //private void OnDestroy() //declaramos metedo para cuando se destruya hacer algo
     //{
     //    SceneManager.LoadScene("GameOver"); //resetear la escena
     //}
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<Lava>())
+        {
+            GetComponent<PlatformPlayer>().animator.Play("burn");
+            AudioManager.instance.PlayAudio(lavaSound, lavaVolume);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
